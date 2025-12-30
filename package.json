@@ -78,7 +78,7 @@
     "uniapp-router-next": "~1.2.7",
     "vue": "~3.5.16",
     "vue-i18n": "~9.1.9",
-    "wot-design-uni": "~1.9.1",
+    "wot-design-uni": "~1.13.0",
     "z-paging": "~2.8.6"
   },
   "devDependencies": {

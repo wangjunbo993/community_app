@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 5098681 */
+  src: url('iconfont.woff2?t=1767002130335') format('woff2'),
+       url('iconfont.woff?t=1767002130335') format('woff'),
+       url('iconfont.ttf?t=1767002130335') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ri-recycle-line:before {
+  content: "\e80d";
+}
+
+.icon-ri-service-line:before {
+  content: "\e852";
+}
+
+.icon-ri-briefcase-line:before {
+  content: "\e83f";
+}
+
+.icon-ri-tools-line:before {
+  content: "\e960";
+}
+
+.icon-ri-home-heart-line:before {
+  content: "\eaff";
+}
+
+.icon-ri-exchange-line:before {
+  content: "\eb49";
+}
+
+.icon-ri-shopping-bag-line:before {
+  content: "\eba9";
+}
+
+.icon-ri-shopping-cart-line:before {
+  content: "\ebc2";
+}
+
+.icon-ri-more-line:before {
+  content: "\ec5e";
+}
+
+.icon-ri-home--line:before {
+  content: "\ec90";
+}
+
+.icon-ri-drop-line:before {
+  content: "\ed0a";
+}
+
+.icon-ri-settings-line:before {
+  content: "\ed57";
+}
+
+.icon-ri-map-pin-line:before {
+  content: "\e895";
+}
+
+.icon-feedback-line:before {
+  content: "\e8a7";
+}
+
+.icon-ri-arrow-right-s-line:before {
+  content: "\e78f";
+}
+
+.icon-ri-user-fill:before {
+  content: "\e92f";
+}
+
+.icon-ri--add-circle-line:before {
+  content: "\e625";
+}
+
+.icon-ri-community-line:before {
+  content: "\ee49";
+}
+

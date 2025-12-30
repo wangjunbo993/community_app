@@ -1,0 +1,135 @@
+{
+  "id": "5098681",
+  "name": "社区icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "40808769",
+      "name": "ri-recycle-line",
+      "font_class": "ri-recycle-line",
+      "unicode": "e80d",
+      "unicode_decimal": 59405
+    },
+    {
+      "icon_id": "40808901",
+      "name": "ri-service-line",
+      "font_class": "ri-service-line",
+      "unicode": "e852",
+      "unicode_decimal": 59474
+    },
+    {
+      "icon_id": "12113956",
+      "name": "ri-briefcase-line",
+      "font_class": "ri-briefcase-line",
+      "unicode": "e83f",
+      "unicode_decimal": 59455
+    },
+    {
+      "icon_id": "12115331",
+      "name": "ri-tools-line",
+      "font_class": "ri-tools-line",
+      "unicode": "e960",
+      "unicode_decimal": 59744
+    },
+    {
+      "icon_id": "12118451",
+      "name": "ri-home-heart-line",
+      "font_class": "ri-home-heart-line",
+      "unicode": "eaff",
+      "unicode_decimal": 60159
+    },
+    {
+      "icon_id": "12119207",
+      "name": "ri-exchange-line",
+      "font_class": "ri-exchange-line",
+      "unicode": "eb49",
+      "unicode_decimal": 60233
+    },
+    {
+      "icon_id": "12119840",
+      "name": "ri-shopping-bag-line",
+      "font_class": "ri-shopping-bag-line",
+      "unicode": "eba9",
+      "unicode_decimal": 60329
+    },
+    {
+      "icon_id": "12119958",
+      "name": "ri-shopping-cart-line",
+      "font_class": "ri-shopping-cart-line",
+      "unicode": "ebc2",
+      "unicode_decimal": 60354
+    },
+    {
+      "icon_id": "12120503",
+      "name": "ri-more-line",
+      "font_class": "ri-more-line",
+      "unicode": "ec5e",
+      "unicode_decimal": 60510
+    },
+    {
+      "icon_id": "12120643",
+      "name": "ri-home-4-line",
+      "font_class": "ri-home--line",
+      "unicode": "ec90",
+      "unicode_decimal": 60560
+    },
+    {
+      "icon_id": "12121207",
+      "name": "ri-drop-line",
+      "font_class": "ri-drop-line",
+      "unicode": "ed0a",
+      "unicode_decimal": 60682
+    },
+    {
+      "icon_id": "12122061",
+      "name": "ri-settings-line",
+      "font_class": "ri-settings-line",
+      "unicode": "ed57",
+      "unicode_decimal": 60759
+    },
+    {
+      "icon_id": "34468504",
+      "name": "ri-map-pin-line",
+      "font_class": "ri-map-pin-line",
+      "unicode": "e895",
+      "unicode_decimal": 59541
+    },
+    {
+      "icon_id": "35087200",
+      "name": "ri-feedback-line",
+      "font_class": "feedback-line",
+      "unicode": "e8a7",
+      "unicode_decimal": 59559
+    },
+    {
+      "icon_id": "35241896",
+      "name": "ri-arrow-right-s-line",
+      "font_class": "ri-arrow-right-s-line",
+      "unicode": "e78f",
+      "unicode_decimal": 59279
+    },
+    {
+      "icon_id": "40809294",
+      "name": "ri-user-fill",
+      "font_class": "ri-user-fill",
+      "unicode": "e92f",
+      "unicode_decimal": 59695
+    },
+    {
+      "icon_id": "44086232",
+      "name": "ri--add-circle-line",
+      "font_class": "ri--add-circle-line",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "12125323",
+      "name": "ri-community-line",
+      "font_class": "ri-community-line",
+      "unicode": "ee49",
+      "unicode_decimal": 61001
+    }
+  ]
+}

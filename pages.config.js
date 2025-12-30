@@ -68,6 +68,15 @@ export default defineUniPages({
             navigationBarTitleText: 'rich-view',
           },
         },
+        {
+          path: 'address-select/index',
+          aliasPath: '/address-select',
+          name: 'address-select',
+          style: {
+            navigationStyle: 'custom',
+            navigationBarTitleText: '选择地址',
+          },
+        },
       ],
     },
     {
@@ -143,7 +152,7 @@ export default defineUniPages({
   ],
   tabBar: {
     color: '#999999',
-    selectedColor: '#018d71',
+    selectedColor: '#000',
     backgroundColor: '#FFFFFF',
     list: [
       {
@@ -153,10 +162,10 @@ export default defineUniPages({
         text: '主页',
       },
       {
-        iconPath: 'static/images/tabbar/example.png',
-        selectedIconPath: 'static/images/tabbar/example-active.png',
+        iconPath: 'static/images/tabbar/property.png',
+        selectedIconPath: 'static/images/tabbar/property-active.png',
         pagePath: 'pages/index/example/index',
-        text: '示例',
+        text: '物业',
       },
       {
         iconPath: 'static/images/tabbar/user.png',

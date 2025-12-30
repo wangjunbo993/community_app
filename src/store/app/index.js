@@ -20,10 +20,18 @@ export const useAppStore = defineStore(
 
     const primaryColor = computed(() => currentThemeInfo.value?.color || defaultPrimaryColor)
 
+    const isNotch = ref(false);
+
+    function setIsNotch(status) {
+      isNotch.value = status
+    }
+
     return {
       themeModel,
       currentTheme,
       currentThemeInfo,
+      isNotch,
+      setIsNotch,
       primaryColor,
     }
   },
