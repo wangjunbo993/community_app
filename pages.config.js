@@ -20,12 +20,12 @@ export default defineUniPages({
       },
     },
     {
-      path: 'pages/index/example/index',
-      aliasPath: '/example',
-      name: 'example',
+      path: 'pages/index/server/index',
+      aliasPath: '/server',
+      name: 'server',
       style: {
         navigationStyle: 'custom',
-        navigationBarTitleText: '示例',
+        navigationBarTitleText: '物业服务',
       },
     },
     {
@@ -48,6 +48,28 @@ export default defineUniPages({
     },
   ],
   subPackages: [
+    {
+      root: 'pages/categorylist',
+      pages: [
+        {
+          path: 'index',
+          aliasPath: '/categorylist',
+          name: 'categorylist',
+          style: {
+            navigationBarTitleText: '',
+          },
+        },
+        {
+          path: 'detail',
+          aliasPath: '/rent-detail',
+          name: 'rent-detail',
+          style: {
+            // navigationStyle: 'custom',
+            navigationBarTitleText: '详情',
+          },
+        },
+      ],
+    },
     {
       root: 'pages/common',
       pages: [
@@ -164,7 +186,7 @@ export default defineUniPages({
       {
         iconPath: 'static/images/tabbar/property.png',
         selectedIconPath: 'static/images/tabbar/property-active.png',
-        pagePath: 'pages/index/example/index',
+        pagePath: 'pages/index/server/index',
         text: '物业',
       },
       {

@@ -30,9 +30,20 @@ const renderCategories = computed(() => {
 
 function handleCategoryClick(item) {
   if (item.url) {
-    // uni.navigateTo({
-    //   url: item.url,
-    // })
+    // 检查页面是否存在，如果不存在则显示提示
+    uni.showToast({
+      title: `即将进入${item.name}`,
+      icon: 'none',
+      duration: 2000,
+    })
+    
+    // 尝试跳转，如果页面不存在会静默失败
+    uni.navigateTo({
+      url: `${item.url}?name=${item.name}&kind=${item.kind}`,
+      fail: () => {
+        console.log(`页面 ${item.url} 不存在`)
+      },
+    })
   }
 }
 </script>
@@ -58,7 +69,7 @@ function handleCategoryClick(item) {
 
         <!-- 如需标题 -->
         
-        <text class="mt-12px text-16px text-#333 font-medium">
+        <text class="mt-12px text-14px text-#333">
           {{ item.name }}
         </text>
        

@@ -13,14 +13,21 @@ defineProps({
 function handleServiceClick(item) {
   if (item.url) {
     uni.navigateTo({
-      url: item.url,
+      url: `${item.url}?name=${item.name}&kind=${item.kind}`,
+      fail: () => {
+        console.log(`页面 ${item.url} 不存在`)
+      },
     })
   }
 }
 
+
 function handleMoreClick() {
   uni.navigateTo({
-    url: '/pages/services/index',
+    url: `/pages/categorylist/index?name=更多&kind=more`,
+    fail: () => {
+      console.log(`页面 ${item.url} 不存在`)
+    },
   })
 }
 </script>
@@ -29,7 +36,7 @@ function handleMoreClick() {
   <view class="w-full px-20px mt-10">
     <!-- 标题栏 -->
     <view class="flex items-center justify-between mb-16px">
-      <text class="text-26px text-#333 font-bold">{{ title }}</text>
+      <text class="text-23px text-#333">{{ title }}</text>
       <view class="flex items-center" @click="handleMoreClick">
         <text class="iconfont text-24px text-#999 ml-4px">&#xe78f;</text>
       </view>
@@ -54,19 +61,19 @@ function handleMoreClick() {
         <view class="flex-1 ml-20px flex flex-col gap-2">
           <!-- 服务名称 -->
           <view>
-            <text class="text-20px text-#333 font-medium line-clamp-2">{{ item.name }}</text>
+            <text class="text-20px text-#333 line-clamp-2">{{ item.name }}</text>
           </view>
 
           <!-- 价格区域 -->
           <view class="flex items-baseline gap-1">
-            <text class="text-20px text-#ff4d4f font-bold">¥{{ item.price }}</text>
+            <text class="text-20px text-#ff4d4f">¥{{ item.price }}</text>
             <text v-if="item.originalPrice" class="text-16px text-#999 line-through">
               ¥{{ item.originalPrice }}
             </text>
           </view>
 
           <!-- 标签区域 -->
-          <view class="flex items-center gap-12px flex-wrap">
+          <view class="flex items-center gap-2 flex-wrap">
             <view
               v-for="(tag, tagIndex) in item.tags"
               :key="tagIndex"

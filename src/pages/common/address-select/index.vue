@@ -69,17 +69,14 @@ function clearHistory() {
       <!-- 搜索框 -->
       <view class="flex-1">
         <view class="bg-#f5f5f5 rounded-24px px-2 py-2 flex items-center w-60vw">
-          <!-- <text class="iconfont text-32px text-#999">&#xe615;</text> -->
           <input
             v-model="searchKeyword"
-            
             class="flex-1 ml-12px text-16px"
             placeholder="请搜索社区"
             placeholder-style="color: #999"
             confirm-type="search"
             @confirm="handleSearch"
           />
-          <!-- <wd-input type="text"  v-model="searchKeyword" placeholder="请输入用户名" @change="handleChange" /> -->
         </view>
       </view>
     </view>

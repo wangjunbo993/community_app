@@ -47,10 +47,10 @@ function handleMoreClick() {
 </script>
 
 <template>
-  <view class="w-full px-20px mt-10 mx-0">
+  <view class="w-full px-20px mt-10 mb-5 mx-0">
     <!-- 标题栏 -->
     <view class="flex items-center justify-between mb-16px">
-      <text class="text-24px text-#333 font-bold">{{ props.title }}</text>
+      <text class="text-23px text-#333">{{ props.title }}</text>
       <view class="flex items-center" @click="handleMoreClick">
         <text class="iconfont text-22px text-#999 ml-4px">&#xe78f;</text>
       </view>
@@ -69,10 +69,6 @@ function handleMoreClick() {
           class="w-15 h-15 rounded-20px flex items-center justify-center flex-shrink-0"
           :style="{ background: item.iconBg || '#f97316' }"
         >
-          <!-- <text class="iconfont text-48px" :style="{ color: item.iconColor || '#fa8c16' }">{{ item.icon }}</text> -->
-        <!-- <text class="iconfont text-30px text-white">
-            {{ item.icon }}
-          </text> -->
           <text class="iconfont text-10" :style="{ color: item.iconColor || '#fa8c16' }">
             {{ item._icon }}
           </text>
@@ -81,7 +77,7 @@ function handleMoreClick() {
         <!-- 内容区 -->
         <view class="flex-1 ml-24px">
           <!-- 标题 -->
-          <text class="text-21px text-#333 font-medium line-clamp-1 mb-12px">{{ item.title }}</text>
+          <text class="text-21px text-#333 line-clamp-1 mb-12px">{{ item.title }}</text>
           
           <!-- 描述 -->
           <text class="text-16px text-#666 line-clamp-2 leading-relaxed">{{ item.description }}</text>

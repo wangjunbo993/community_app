@@ -44,18 +44,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <wd-sticky :offset-top="27">
-    <view class="rounded-12px px-14px" :style="{ paddingTop: appStore.isNotch ? '33px' : '0' }">
-      <view style="width: 70vw" class="flex-between">
+  <wd-sticky :offset-top="0">
+    <view class="rounded-12px px-16px pb-5px bg-white" :style="{ paddingTop: appStore.isNotch ? '65px' : '0' }">
+      <view style="width: 100vw" class="flex-between">
         <view class="max-w-180px flex shrink-0 items-center" @click="onLocationClick">
           <wd-icon name="location" size="18" />
           <text class="ml-6px truncate text-20px text-#1d2129 font-600">
             {{ locationText }}
           </text>
         </view>
-        <view class="ml-12px flex items-center" @click="onSearchClick">
+        <!-- <view class="ml-12px flex items-center" @click="onSearchClick">
           <wd-icon name="search" size="18" color="#000" />
-        </view>
+        </view> -->
       </view>
     </view>
   </wd-sticky>

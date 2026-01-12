@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "40811107",
+      "name": "ri-pushpin-fill",
+      "font_class": "ri-pushpin-fill",
+      "unicode": "ea70",
+      "unicode_decimal": 60016
+    },
+    {
+      "icon_id": "12115448",
+      "name": "ri-water-flash-line",
+      "font_class": "ri-water-flash-line",
+      "unicode": "e98c",
+      "unicode_decimal": 59788
+    },
+    {
+      "icon_id": "12124670",
+      "name": "ri-notification-line",
+      "font_class": "ri-notification-line",
+      "unicode": "ee07",
+      "unicode_decimal": 60935
+    },
+    {
+      "icon_id": "12126535",
+      "name": "ri-file-list-3-line",
+      "font_class": "ri-file-list--line",
+      "unicode": "ee7c",
+      "unicode_decimal": 61052
+    },
+    {
+      "icon_id": "40807427",
+      "name": "ri-calendar-event-line",
+      "font_class": "ri-calendar-event-line",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
       "icon_id": "40808769",
       "name": "ri-recycle-line",
       "font_class": "ri-recycle-line",
